@@ -5,6 +5,7 @@ Pkg.add("DataFrames")
 using CSV
 using DataFrames
 using Plots
+using Gadfly
 #Addition function
 function addition(x, y)
     return (x + y)
