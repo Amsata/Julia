@@ -6,6 +6,7 @@ using CSV
 using DataFrames
 using Plots
 using Gadfly
+using Lathe
 #Addition function
 function addition(x, y)
     return (x + y)
