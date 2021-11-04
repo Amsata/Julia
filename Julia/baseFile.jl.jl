@@ -4,7 +4,7 @@ Pkg.add("CSV")
 Pkg.add("DataFrames")
 using CSV
 using DataFrames
-
+using Plots
 #Addition function
 function addition(x, y)
     return (x + y)
