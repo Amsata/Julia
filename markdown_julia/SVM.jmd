@@ -1,0 +1,36 @@
+---
+title: Machines à vecteurs de supports sur Julia
+author: Amsata Niang
+date: 2021-11-04
+---
+
+# Introduction
+
+Ce document est une note sur l'utilisation de `markdown` sur $Julia$
+
+Another list:
+
+  * item one
+
+  * item two
+
+    ```
+    f(x) = x
+    ```
+
+  * And a sublist:
+
+      + sub-item one
+      + sub-item two
+
+
+!!! note
+
+    This is the content of the note.
+
+```julia;term=true
+
+f(x,y,λ)=x^2+y^2+λ
+f(1,1,1)
+
+```
